@@ -40,10 +40,11 @@ int main(){
   cout  << "SWAPV --> &a:" << &a << " , &b:"<< &b << endl;
   swapV(a,b);
   cout  << "SWAPV --> a:" << a << " , b:"<< b << endl;
+  cout << "------------------------------------------";
   cout  << "SWAPR --> &a:" << &a << " , &b:"<< &b << endl;
   swapR(a,b);
   cout  << "SWAPR --> a:" << a << " , b:"<< b << endl;
-
+  cout << "------------------------------------------";
   //cout << "*a:" << *a << " *b:" << *b << endl;
   swapA(&a,&b);
   cout  << "SWAPA --> a:" << a << " , b:"<< b << endl;
