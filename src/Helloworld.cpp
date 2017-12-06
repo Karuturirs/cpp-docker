@@ -1,7 +1,7 @@
 #include <iostream>
-#include <Structure.cpp>
-#include "swap.hpp"
-#include "constuctordes.hpp"
+//#include "Structure.h"
+#include "swap.h"
+//#include "constuctordes.h"
 
 using namespace std;
 void diff();
@@ -15,14 +15,16 @@ int main(){
   char a ,b ;
   cout << " Enter any thing for a,b :" ;
   cin >> a >> b ;
-  swapn(a,b);
+  swapV(a,b);
   cout << "After swapping a , b: " << a << " , " << b << endl;
 
+
+
   // constuctordes.cpp
-  constuctordes cd ;
-  constuctordes cd2 =2;
-  cout << cd.getValue() << " : cd++ =  "  << cd.incBy1() <<endl;
-  cout << " : cd2++ =  " << cd2.incBy1() <<endl;
+//  constuctordes cd ;
+//  constuctordes cd2 =2;
+//  cout << cd.getValue() << " : cd++ =  "  << cd.incBy1() <<endl;
+//  cout << " : cd2++ =  " << cd2.incBy1() <<endl;
 
 
   return 0;

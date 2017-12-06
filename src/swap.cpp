@@ -32,7 +32,7 @@ void swapV(int x,int y){
   x=y;
   y=t;
 }
-
+/*
 int main(){
   int a,b;
   cout << "Enter two number <a,b>:" << endl;
@@ -49,4 +49,4 @@ int main(){
   swapA(&a,&b);
   cout  << "SWAPA --> a:" << a << " , b:"<< b << endl;
   return 0;
-}
+}*/
