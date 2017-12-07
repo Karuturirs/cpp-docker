@@ -7,7 +7,7 @@ a) auto (normal declaration, memory is created in stack)
 b)register (Allocation of CPU register to variables, speeds up the execution time.
             Memory is not refered when such varaiables are used.
             can not create more than 2-3. Better if using for loops)
-c)static (static storage class is allowed to define a variable
+c)static/global (static storage class is allowed to define a variable
           whose scope is resticted to either a block or a function or a file(but not all files in multi mode programming).
           global or local static variable memory allocation is  done in global heap.
           Global static has scope restiction to a file)
@@ -15,6 +15,8 @@ d)extern (when progam spans across different files, there can be use of global v
           a global varaible can be declared in a file only once and the stame variable can be declared with
           extern may times in other files. As all are refered to same memory allocation,
            any chages made in any function of any file can impact the value.)
+  global/static variable vlaue is allocated by default to zero.
+  local varaible value is assigned to some random value at time of declaration.
 */
 void printCount(){
   static int x=1;
